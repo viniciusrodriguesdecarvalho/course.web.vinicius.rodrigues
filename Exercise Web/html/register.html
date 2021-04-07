@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register - Private Forum</title>
+</head>
+    <body>
+        <form action="post">
+            <h1>Member registration</h1>
+            <label for="input-name">Name:</label>
+            <input id="input-name" type="text"><br/><br/>
+            <label for="input-email">E-mail:</label>
+            <input id="input-email" type="email"><br/><br/>
+            <label for="input-password">Password:</label>
+            <input id="input-password" type="password"><br/><br/>
+            <label for="slc-indicated">Was indicated?</label>
+            <select name="indicated">
+                <option class="slc-indicated" value="bota">Yes</option>
+                <option class="slc-indicated" value="fla">No</option>
+            </select><br/><br/>
+            <input id="security-conditions" type="checkbox">
+            <label for="security-conditions">Security terms and conditions</label><br/><br/>
+            <button type="submit">Register</button>
+        </form>
+    </body>
+</html>
