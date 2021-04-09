@@ -1,3 +1,9 @@
+/* header */
+header {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+/* Text */
 h1 {
     color: rgb(61, 61, 61);
 }
@@ -7,5 +13,12 @@ h1 {
 }
 
 .global-footer {
+    margin-top: 20px;
     text-align: center;
+}
+
+/* table */
+.table-seasons {
+    margin-top: 20px;
+    color: red;
 }
