@@ -15,6 +15,7 @@ h1 {
 .global-footer {
     margin-top: 20px;
     text-align: center;
+    font-weight: bold;
 }
 
 /* menu */
