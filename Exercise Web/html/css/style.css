@@ -19,17 +19,90 @@ h1 {
 }
 
 /* menu */
-li {
+.main-menu {
+    width: 237px;
+    margin: auto;
+}
+
+.main-menu li {
     padding: 5px;
     display: inline-block;
     list-style: none;
 }
-a {
+
+.main-menu li a {
     text-decoration: none;
 }
 
 /* table */
 .table-seasons {
-    margin-top: 20px;
     color: red;
+    margin: 20px auto;
+    width: 500px;
+}
+
+.table-seasons table {
+    width: 500px;
+}
+
+/* header & content */
+.global-header, .global-content {
+    text-align: center;
+}
+
+#access-forum a {
+    text-decoration: none;
+    color: red;
+    width:100px;
+    position:relative;
+    left:50%;
+    margin-top:-40px;
+    margin-left:-50px;
+}
+
+/* Form login */
+.login-form {
+    width: 537px;
+    margin: 0 auto;
+}
+
+/* Private forum menu */
+.private-menu {
+    width: 200px;
+    margin: 0 auto;
+}
+
+.private-menu li {
+    list-style: none;
+    display: inline-block;
+    padding: 5px;
+}
+
+.private-menu li a {
+    text-decoration: none;
+}
+
+/* Register page */
+.register-form {
+    width: 257px;
+    background: red;
+    margin: 0 auto;
+}
+
+.register-form button {
+    margin-left: 95px;
+}
+
+/* Seasons page */
+.global-media-content {
+    width: 560px;
+    margin: 0 auto;
+}
+
+.global-media-content h2 {
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
 }
