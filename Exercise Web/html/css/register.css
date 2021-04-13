@@ -1,0 +1,15 @@
+/* Register page */
+.register-form {
+    width: 257px;
+    background: red;
+    margin: 0 auto;
+}
+
+.register-form button {
+    margin-left: 95px;
+}
+
+/* background */
+body {
+    background-image: url('/html/img/back-form-register.jpg');
+}

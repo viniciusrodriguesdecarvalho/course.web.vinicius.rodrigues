@@ -1,0 +1,14 @@
+/* btn access */
+#access-forum a {
+    text-decoration: none;
+    color: red;
+    width:100px;
+    position:relative;
+    left:50%;
+    margin-top:-40px;
+    margin-left:-50px;
+}
+
+.global-header img {
+    width: 300px;
+}

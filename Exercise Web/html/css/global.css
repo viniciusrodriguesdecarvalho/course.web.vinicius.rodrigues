@@ -1,0 +1,26 @@
+/* header */
+.global-header {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* Text format */
+h1 {
+    color: rgb(61, 61, 61);
+}
+
+.italic-format {
+    font-style: italic;
+}
+
+.global-footer {
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+/* header & content */
+.global-header, .global-content {
+    text-align: center;
+}

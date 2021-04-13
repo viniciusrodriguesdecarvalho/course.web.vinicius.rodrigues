@@ -1,0 +1,15 @@
+/* Private forum menu */
+.private-menu {
+    width: 200px;
+    margin: 0 auto;
+}
+
+.private-menu li {
+    list-style: none;
+    display: inline-block;
+    padding: 5px;
+}
+
+.private-menu li a {
+    text-decoration: none;
+}

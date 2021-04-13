@@ -1,0 +1,15 @@
+/* menu */
+.main-menu {
+    width: 237px;
+    margin: auto;
+}
+
+.main-menu li {
+    padding: 5px;
+    display: inline-block;
+    list-style: none;
+}
+
+.main-menu li a {
+    text-decoration: none;
+}
