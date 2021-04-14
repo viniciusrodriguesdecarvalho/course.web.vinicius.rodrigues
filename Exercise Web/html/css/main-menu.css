@@ -1,15 +1,6 @@
-/* menu */
-.main-menu {
-    width: 237px;
-    margin: auto;
-}
-
-.main-menu li {
-    padding: 5px;
-    display: inline-block;
-    list-style: none;
-}
-
-.main-menu li a {
-    text-decoration: none;
+#circle-content-01 {
+    background-color: rgba(41, 41, 41, 0.623);
+    width: 100px;
+    height: 100px;
+    margin: 30px auto;
 }

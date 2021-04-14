@@ -21,7 +21,39 @@ h1 {
 /* Footer */
 .global-footer {
     text-align: center;
-    margin-top: 20px;
-    text-align: center;
+    margin-top: 30px;
     font-weight: bold;
+}
+
+/* navbar */
+.main-menu {
+	background: black;
+	height: 50px;
+	width: 100%;
+}
+
+.main-menu ul li {
+    display: inline-block;
+    float: right;
+    padding: 16px;
+    margin-left: 14px;
+}
+
+.main-menu ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 17px;
+    margin-left: -30px;
+    transition: 0.5s;
+    text-transform: uppercase;
+}
+
+.main-menu ul li a:hover {
+    background-color: rgb(66, 66, 66);
+    color: rgb(253, 43, 43);
+}
+
+.main-menu ul label a img {
+    width: 120px;
+    padding: 10px;
 }

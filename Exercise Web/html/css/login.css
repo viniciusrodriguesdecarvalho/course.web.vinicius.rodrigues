@@ -1,5 +1,12 @@
 /* Form login */
 .login-form {
     width: 537px;
-    margin: 0 auto;
+    margin: 20px auto;
+}
+
+.main-menu h1 {
+    text-align: center;
+    color: rgb(253, 43, 43);
+    font-size: 35px;
+    padding: 6px;
 }
