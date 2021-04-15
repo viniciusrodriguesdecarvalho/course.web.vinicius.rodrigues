@@ -1,23 +1,48 @@
-/* btn access */
-#access-forum a {
-    text-decoration: none;
+@font-face{
+    font-family: Avengeance Heroic Avenger;
+    src: url(../fonts/AVENGEANCE\ HEROIC\ AVENGER\ BD.ttf);
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    min-height: 100vh;
+    background: url(../img/background-home.jpg);
+    /*
+    background: linear-gradient(-135deg, rgb(3, 47, 86), rgb(174, 209, 241));
+    */
+}
+
+.custom-font h1 {
+    font-family: Avengeance Heroic Avenger;
+    font-size: 120px;
     color: white;
-    width: 100px;
+}
+
+.custom-font h2 {
+    font-family: Avengeance Heroic Avenger;
+    font-size: 70px;
+    color: white;
+    text-decoration: none;
+}
+
+.custom-font a {
     position: relative;
-    left: 50%;
-    top: 15px;
-    margin-left: -50px;
-    background-color: black;
-    padding: 5px;
+    text-decoration: none;
+}
+
+.custom-font a::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 5px;
     border-radius: 5px;
-    transition: .5s;
+    background: #fff;
+    transition: width .3s;
 }
 
-#access-forum a:hover {
-    background-color: rgb(66, 66, 66);
-}
-
-.global-header img {
-    width: 300px;
-    margin-top: 20px;
+.custom-font a:hover::after {
+    width: 100%;
+    transition: width .3s;
 }

@@ -1,6 +1,78 @@
-#circle-content-01 {
-    background-color: rgba(41, 41, 41, 0.623);
-    width: 100px;
-    height: 100px;
-    margin: 30px auto;
+body {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    min-height: 100vh;
+    background: url(../img/background.jpg);
+    /*
+    background: linear-gradient(-135deg, rgb(3, 47, 86), rgb(174, 209, 241));
+    */
+}
+
+/* font family */
+@font-face{
+    font-family: Avengeance Heroic Avenger;
+    src: url(../fonts/AVENGEANCE\ HEROIC\ AVENGER\ BD.ttf);
+}
+
+.back-title h1 {
+    font-family: Avengeance Heroic Avenger;
+}
+
+/* Cards menu */
+.box-menu {
+    width: 249px;
+    height: 460px;
+    display: inline-block;
+    background: white;
+    margin-left: 30px;
+    text-decoration: none;
+    box-shadow: 8px 8px 8px 1px black;
+    transition: all .3s ease;
+    opacity: 80%;
+}
+
+.box-menu:hover {
+    transform: translate(-4%, -4%);
+    opacity: 100%;
+}
+
+.box-menu h1 {
+    text-align: center;
+    font-size: 40px;
+    padding: 11px;
+    color: black;
+    margin-top: -40px;
+    text-transform: uppercase;
+}
+
+/* Custom cards private shadows */
+#box-1:hover {
+    box-shadow: 2px 2px 2px 2px rgb(10, 79, 216);
+}
+
+#box-2:hover {
+    box-shadow: 2px 2px 2px 2px rgb(128, 55, 197);
+}
+
+#box-3:hover {
+    box-shadow: 2px 2px 2px 2px rgb(228, 55, 59);
+}
+
+#box-4:hover {
+    box-shadow: 2px 2px 2px 2px rgb(104, 177, 62);
+}
+
+#box-5:hover {
+    box-shadow: 2px 2px 2px 2px rgb(250, 230, 57);
+}
+
+/* Cards title */
+.back-title  {
+    background: white;
+    height: 55px;
+    margin-top: -53px;
+    position: relative;
+    border-radius: 3px;
+    opacity: 90%;
 }
