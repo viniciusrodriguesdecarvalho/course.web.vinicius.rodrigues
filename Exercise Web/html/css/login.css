@@ -54,7 +54,7 @@ body{
 /* Form login */
 .form-login{
     width: 450px;
-    height: 300px;
+    height: 290px;
     background: #fff;
     padding: 30px;
     box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
@@ -124,6 +124,7 @@ body{
     border: none;
     border-radius: 5px;
     text-transform: uppercase;
+    cursor: pointer;
 }
 
 .btn-submit-contact:hover {

@@ -129,6 +129,7 @@ body{
     border: none;
     border-radius: 5px;
     text-transform: uppercase;
+    cursor: pointer;
 }
 
 .btn-submit-contact:hover {
