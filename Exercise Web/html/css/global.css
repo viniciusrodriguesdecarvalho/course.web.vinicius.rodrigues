@@ -24,6 +24,7 @@ body {
 
 .global-navbar ul li:hover {
     background: rgb(228, 55, 59);
+    border-radius: 5px;
 }
 
 .global-navbar ul li a {

@@ -32,3 +32,9 @@ body{
 .movies-info tbody tr td {
     padding: 20px;
 }
+
+
+.movies-info tbody tr:nth-of-type(even) {
+    background-color: rgb(235, 235, 235);
+    padding: 20px;
+}
