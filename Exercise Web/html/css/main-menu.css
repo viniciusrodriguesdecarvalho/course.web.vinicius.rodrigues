@@ -3,7 +3,7 @@ body {
     align-items: center;
     justify-content: space-around;
     min-height: 100vh;
-    background: url(../img/background.jpg);
+    background: url(../img/background-global.jpg);
     /*
     background: linear-gradient(-135deg, rgb(3, 47, 86), rgb(174, 209, 241));
     */
