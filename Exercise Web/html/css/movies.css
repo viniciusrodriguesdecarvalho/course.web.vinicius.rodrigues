@@ -1,0 +1,34 @@
+@font-face{
+    font-family: Avengeance Heroic Avenger;
+    src: url(../fonts/AVENGEANCE\ HEROIC\ AVENGER\ BD.ttf);
+}
+
+*{
+    outline: none;
+    box-sizing: border-box;
+  }
+
+body{
+  background: url(../img/background-global.jpg);
+}
+
+.movies-info {
+    margin: 0 auto;
+    color: black;
+    margin-top: 70px;
+    font-size: 1em;
+    border-collapse: collapse;
+    background: white;
+    box-shadow: 2px 2px 2px black;
+    opacity: 90%;
+}
+
+.movies-info thead tr th {
+    padding: 20px;
+    color: white;
+    background: rgb(228, 55, 59);
+}
+
+.movies-info tbody tr td {
+    padding: 20px;
+}

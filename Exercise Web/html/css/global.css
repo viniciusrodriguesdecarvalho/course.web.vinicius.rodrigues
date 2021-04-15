@@ -1,9 +1,41 @@
 body {
-    display: flex;
     align-items: center;
     justify-content: space-around;
     min-height: 100vh;
+    font-family: sans-serif;
     /*
     background: linear-gradient(-135deg, rgb(3, 47, 86), rgb(174, 209, 241));
     */
+}
+
+/* Navbar global */
+.global-navbar {
+    width: 100%;
+    height: 50px;
+    background: rgb(10, 4, 42);
+    box-shadow: 2px 2px 2px black;
+}
+
+.global-navbar ul li {
+    display: inline-block;
+    list-style: none;
+    transition: all 0.3s ease;
+}
+
+.global-navbar ul li:hover {
+    background: rgb(228, 55, 59);
+}
+
+.global-navbar ul li a {
+    text-decoration: none;
+    font-size: 50px;
+    color: white;
+    font-family: Avengeance Heroic Avenger;
+    margin-top: 20px;
+    padding: 20px;
+    transition: all 0.3s ease;
+}
+
+.global-navbar ul li a:hover {
+    color: white;
 }
