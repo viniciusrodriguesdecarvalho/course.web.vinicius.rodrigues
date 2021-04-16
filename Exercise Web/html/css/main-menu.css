@@ -20,7 +20,7 @@ body {
 }
 
 /* Cards menu */
-.box-menu {
+.card-menu {
     width: 249px;
     height: 460px;
     display: inline-block;
@@ -32,12 +32,12 @@ body {
     opacity: 80%;
 }
 
-.box-menu:hover {
+.card-menu:hover {
     transform: translate(-3%, -3%);
     opacity: 100%;
 }
 
-.box-menu h1 {
+.card-menu h1 {
     text-align: center;
     font-size: 40px;
     padding: 11px;
@@ -47,23 +47,23 @@ body {
 }
 
 /* Custom cards private shadows */
-#box-1:hover {
+#card-1:hover {
     box-shadow: 2px 2px 2px 2px rgb(10, 79, 216);
 }
 
-#box-2:hover {
+#card-2:hover {
     box-shadow: 2px 2px 2px 2px rgb(128, 55, 197);
 }
 
-#box-3:hover {
+#card-3:hover {
     box-shadow: 2px 2px 2px 2px rgb(228, 55, 59);
 }
 
-#box-4:hover {
+#card-4:hover {
     box-shadow: 2px 2px 2px 2px rgb(104, 177, 62);
 }
 
-#box-5:hover {
+#card-5:hover {
     box-shadow: 2px 2px 2px 2px rgb(250, 230, 57);
 }
 
