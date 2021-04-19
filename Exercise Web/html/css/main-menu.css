@@ -1,3 +1,4 @@
+/*Body page*/
 body {
     display: flex;
     align-items: center;
@@ -9,7 +10,7 @@ body {
     */
 }
 
-/* font family */
+/*Avengers custom font*/
 @font-face{
     font-family: Avengeance Heroic Avenger;
     src: url(../fonts/AVENGEANCE\ HEROIC\ AVENGER\ BD.ttf);

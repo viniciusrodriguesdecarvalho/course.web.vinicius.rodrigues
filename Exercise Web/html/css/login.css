@@ -1,3 +1,11 @@
+/*Vars*/
+:root {
+  --label-hover-color: rgb(228, 55, 59);
+  --line-hover-color: rgb(228, 55, 59);
+  --btn-hover-color: rgb(228, 55, 59);
+  --underline-hover-color: rgb(228, 55, 59);
+}
+
 @font-face{
     font-family: Avengeance Heroic Avenger;
     src: url(../fonts/AVENGEANCE\ HEROIC\ AVENGER\ BD.ttf);
@@ -49,7 +57,7 @@ body{
 .input-data input:valid ~ label{
   transform: translateY(-20px);
   font-size: 15px;
-  color: rgb(228, 55, 59);
+  color: var(--label-hover-color);
 }
 
 .form-login .input-data label{
@@ -73,7 +81,7 @@ body{
     content: "";
     height: 100%;
     width: 100%;
-    background:rgb(228, 55, 59);
+    background:var(--underline-hover-color);
     transform: scaleX(0);
     transform-origin: center;
     transition: transform 0.3s ease;
@@ -96,6 +104,6 @@ body{
 }
 
 .btn-submit-contact:hover {
-    background: rgb(228, 55, 59);
+    background: var(--btn-hover-color);
     color: white;
 }

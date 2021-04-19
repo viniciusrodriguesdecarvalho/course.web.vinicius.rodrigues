@@ -1,3 +1,4 @@
+/*Avengers custom font*/
 @font-face{
   font-family: Avengeance Heroic Avenger;
   src: url(../fonts/AVENGEANCE\ HEROIC\ AVENGER\ BD.ttf);
@@ -8,43 +9,12 @@
     box-sizing: border-box;
   }
 
+/*Body page*/
 body{
   background: url(../img/background-global.jpg);
 }
 
-/* Navbar global */
-.global-navbar {
-    width: 100%;
-    height: 50px;
-    background: rgb(10, 4, 42);
-    box-shadow: 2px 2px 2px black;
-}
-
-.global-navbar ul li {
-    display: inline-block;
-    list-style: none;
-    transition: all 0.3s ease;
-}
-
-.global-navbar ul li:hover {
-    background: rgb(228, 55, 59);
-}
-
-.global-navbar ul li a {
-    text-decoration: none;
-    font-size: 50px;
-    color: white;
-    font-family: Avengeance Heroic Avenger;
-    margin-top: 20px;
-    padding: 20px;
-    transition: all 0.3s ease;
-}
-
-.global-navbar ul li a:hover {
-    color: white;
-}
-
-/* header */
+/*Contact form*/
 .form h1 {
     font-size: 40px;
     text-align: center;

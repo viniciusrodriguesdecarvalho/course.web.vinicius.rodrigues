@@ -1,6 +1,17 @@
+/*Vars*/
+:root {
+    --bg-table-color: rgb(228, 55, 59);
+}
+
+/*Avengers custom font*/
 @font-face{
     font-family: Avengeance Heroic Avenger;
     src: url(../fonts/AVENGEANCE\ HEROIC\ AVENGER\ BD.ttf);
+}
+
+/*Body page*/
+body{
+  background: url(../img/background-global.jpg);
 }
 
 *{
@@ -8,10 +19,7 @@
     box-sizing: border-box;
 }
 
-body{
-  background: url(../img/background-global.jpg);
-}
-
+/*Table movie info*/
 .movies-info {
     margin: 0 auto;
     color: black;
@@ -26,7 +34,7 @@ body{
 .movies-info thead tr th {
     padding: 20px;
     color: white;
-    background: rgb(228, 55, 59);
+    background: var(--bg-table-color);
 }
 
 .movies-info tbody tr td {

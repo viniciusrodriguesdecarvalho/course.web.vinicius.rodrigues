@@ -1,11 +1,15 @@
+/*Vars*/
+:root {
+    --navbar-hover-color: rgb(228, 55, 59);
+    --avengers-font: Avengeance Heroic Avenger;
+}
+
+/*Body page*/
 body {
     align-items: center;
     justify-content: space-around;
     min-height: 100vh;
     font-family: sans-serif;
-    /*
-    background: linear-gradient(-135deg, rgb(3, 47, 86), rgb(174, 209, 241));
-    */
 }
 
 /* Navbar global */
@@ -23,7 +27,7 @@ body {
 }
 
 .global-navbar ul li:hover {
-    background: rgb(228, 55, 59);
+    background: var(--navbar-hover-color);
     border-radius: 5px;
 }
 
@@ -31,7 +35,7 @@ body {
     text-decoration: none;
     font-size: 50px;
     color: white;
-    font-family: Avengeance Heroic Avenger;
+    font-family: var(--avengers-font);
     margin-top: 20px;
     padding: 20px;
     transition: all 0.3s ease;

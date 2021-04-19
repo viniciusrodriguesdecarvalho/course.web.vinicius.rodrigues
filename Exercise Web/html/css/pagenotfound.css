@@ -1,20 +1,19 @@
+/*Avengers custom font*/
 @font-face{
     font-family: Avengeance Heroic Avenger;
     src: url(../fonts/AVENGEANCE\ HEROIC\ AVENGER\ BD.ttf);
 }
 
+/*Body page*/
 body {
     display: flex;
     align-items: center;
     justify-content: space-around;
     min-height: 100vh;
     background: white;
-    /*
-    background: url(../img/background-home.jpg);
-    background: linear-gradient(-135deg, rgb(3, 47, 86), rgb(174, 209, 241));
-    */
 }
 
+/*Custom font*/
 .custom-font h1 {
     font-family: Avengeance Heroic Avenger;
     font-size: 130px;
@@ -31,6 +30,6 @@ body {
     text-decoration: none;
 }
 
-#cade {
+#pagenotfound {
     margin-left: 27%;
 }
