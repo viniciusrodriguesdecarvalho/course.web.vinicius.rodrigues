@@ -1,16 +1,14 @@
-/*Body page*/
+/* Start Body page */
 body {
     display: flex;
     align-items: center;
     justify-content: space-around;
     min-height: 100vh;
     background: url(../img/background-global.jpg);
-    /*
-    background: linear-gradient(-135deg, rgb(3, 47, 86), rgb(174, 209, 241));
-    */
 }
+/* End Body page */
 
-/*Avengers custom font*/
+/* Start Avengers custom font */
 @font-face{
     font-family: Avengeance Heroic Avenger;
     src: url(../fonts/AVENGEANCE\ HEROIC\ AVENGER\ BD.ttf);
@@ -19,6 +17,7 @@ body {
 .back-title h1 {
     font-family: Avengeance Heroic Avenger;
 }
+/* End Avengers custom font */
 
 /* Cards menu */
 .card-menu {
@@ -34,7 +33,7 @@ body {
 }
 
 .card-menu:hover {
-    transform: translate(-3%, -3%);
+    transform: translate(-1%, -1%);
     opacity: 100%;
 }
 
@@ -77,3 +76,4 @@ body {
     border-radius: 3px;
     opacity: 90%;
 }
+/* end Cards menu */

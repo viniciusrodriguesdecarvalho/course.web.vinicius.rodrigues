@@ -1,20 +1,22 @@
-/*Avengers custom font*/
+/* Start Avengers custom font */
 @font-face{
   font-family: Avengeance Heroic Avenger;
   src: url(../fonts/AVENGEANCE\ HEROIC\ AVENGER\ BD.ttf);
 }
+/* End Avengers custom font */
 
-*{
-    outline: none;
-    box-sizing: border-box;
-  }
-
-/*Body page*/
+/* Start body page */
 body{
   background: url(../img/background-global.jpg);
 }
 
-/*Contact form*/
+*{
+  outline: none;
+  box-sizing: border-box;
+}
+/* End body page */
+
+/* Start contact form */
 .form h1 {
     font-size: 40px;
     text-align: center;
@@ -106,4 +108,4 @@ body{
     background: rgb(228, 55, 59);
     color: white;
 }
-
+/* End contact form */

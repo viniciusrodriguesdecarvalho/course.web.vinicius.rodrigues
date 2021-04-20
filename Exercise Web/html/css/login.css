@@ -1,16 +1,20 @@
-/*Vars*/
+/* Start vars */
 :root {
   --label-hover-color: rgb(228, 55, 59);
   --line-hover-color: rgb(228, 55, 59);
   --btn-hover-color: rgb(228, 55, 59);
   --underline-hover-color: rgb(228, 55, 59);
 }
+/* End vars */
 
+/* Start Avengers custom font */
 @font-face{
     font-family: Avengeance Heroic Avenger;
     src: url(../fonts/AVENGEANCE\ HEROIC\ AVENGER\ BD.ttf);
 }
+/* End Avengers custom font */
 
+/* Start body page */
 *{
     outline: none;
     box-sizing: border-box;
@@ -19,15 +23,17 @@
 body{
   background: url(../img/background-global.jpg);
 }
+/* End body page */
 
-/* header */
+/* Start header */
 .form-login h1 {
     font-size: 40px;
     text-align: center;
     margin-bottom: 10px;
 }
+/* End header */
 
-/* Form login */
+/* Start form login */
 .form-login{
     width: 450px;
     height: 290px;
@@ -107,3 +113,4 @@ body{
     background: var(--btn-hover-color);
     color: white;
 }
+/* End form login */

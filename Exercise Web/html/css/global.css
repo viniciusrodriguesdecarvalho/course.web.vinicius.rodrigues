@@ -1,18 +1,20 @@
-/*Vars*/
+/* Start vars */
 :root {
     --navbar-hover-color: rgb(228, 55, 59);
     --avengers-font: Avengeance Heroic Avenger;
 }
+/* End vars */
 
-/*Body page*/
+/* Start body page */
 body {
     align-items: center;
     justify-content: space-around;
     min-height: 100vh;
     font-family: sans-serif;
 }
+/* End body page */
 
-/* Navbar global */
+/* Start navbar global */
 .global-navbar {
     width: 100%;
     height: 50px;
@@ -44,3 +46,4 @@ body {
 .global-navbar ul li a:hover {
     color: white;
 }
+/* End navbar global */
